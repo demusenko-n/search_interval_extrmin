@@ -13,6 +13,7 @@ namespace Lab4
             IntervalFinder intervalFinder = new();
             
             (double a, double b) = intervalFinder.GetInterval(Function, 2, 0.2);
+            Console.WriteLine($"({a}; {b})");
         }
     }
 }
