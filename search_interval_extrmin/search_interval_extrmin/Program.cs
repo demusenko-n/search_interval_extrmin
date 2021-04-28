@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Linq;
 
 namespace search_interval_extrmin
 {
-    class Program
+    class IntervalHelper
     {
-        static void Main(string[] args)
+        (double, double) GetInterval(Func<double,double> function, double x0, double step)
         {
-            Console.WriteLine("Hello World!");
+
+            return (0, 0);
         }
     }
 }
