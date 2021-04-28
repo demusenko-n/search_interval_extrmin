@@ -13,7 +13,7 @@ namespace Lab4
         private static void Main(string[] args)
         {
             (double a, double b) = IntervalFinder.GetIntervalMin(Function, 2, 0.2);
-            Console.WriteLine($"({a}; {b})");
+            Console.WriteLine($"({a:F4}; {b:F4})");
 
             IPartitionMethod method = new PartitionDichotomy();
             //IPartitionMethod method = new PartitionGoldenRatio();
