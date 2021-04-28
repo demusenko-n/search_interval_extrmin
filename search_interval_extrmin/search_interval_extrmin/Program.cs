@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Linq;
 
-namespace search_interval_extrmin
+namespace IntervalHelper
 {
     class IntervalHelper
     {

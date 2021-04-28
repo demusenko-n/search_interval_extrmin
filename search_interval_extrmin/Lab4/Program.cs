@@ -1,4 +1,5 @@
 ﻿using System;
+using IntervalHelper;
 
 namespace Lab4
 {
@@ -6,7 +7,6 @@ namespace Lab4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
