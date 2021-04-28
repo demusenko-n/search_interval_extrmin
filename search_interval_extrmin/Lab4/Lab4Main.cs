@@ -15,7 +15,10 @@ namespace Lab4
             (double a, double b) = IntervalFinder.GetIntervalMin(Function, 2, 0.2);
             Console.WriteLine($"({a}; {b})");
 
-            double result = PartitionDichotomy.Calculate(x=>Math.Sin(x), a, b, Epsilon);
+            IPartitionMethod method = new PartitionDichotomy();
+            //IPartitionMethod method = new PartitionGoldenRatio();
+
+            double result = method.Calculate(Function, a, b, Epsilon);
             Console.WriteLine($"Res = {result:F4}");
         }
     }
