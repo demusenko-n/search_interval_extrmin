@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "search_interval_extrmin", "search_interval_extrmin\search_interval_extrmin.csproj", "{A3D697E5-4FD7-431E-8B22-4CB819E47193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntervalHelper", "search_interval_extrmin\IntervalHelper.csproj", "{A3D697E5-4FD7-431E-8B22-4CB819E47193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4", "Lab4\Lab4.csproj", "{243B013F-DA77-4901-88D5-C5C9CDA47E19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A3D697E5-4FD7-431E-8B22-4CB819E47193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3D697E5-4FD7-431E-8B22-4CB819E47193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3D697E5-4FD7-431E-8B22-4CB819E47193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243B013F-DA77-4901-88D5-C5C9CDA47E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243B013F-DA77-4901-88D5-C5C9CDA47E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243B013F-DA77-4901-88D5-C5C9CDA47E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243B013F-DA77-4901-88D5-C5C9CDA47E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
