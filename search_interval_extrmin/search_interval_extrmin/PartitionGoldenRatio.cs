@@ -15,7 +15,7 @@ namespace IntervalHelper
 
             do
             {
-                //Console.WriteLine($"a = {a:F4} | x1 = {x1:F4} | x2 = {x2:F4} | b = {b:F4} |");
+                Console.WriteLine($"a = {a:F4} | x1 = {x1:F4} | x2 = {x2:F4} | b = {b:F4} |");
 
                 if (function(x1) < function(x2))
                 {
